@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.05}
+\small
+\begin{tabular}{lcccc}
+\hline
+& \multicolumn{2}{c}{surveyed} & \multicolumn{2}{c}{unsurveyed}\\
+\cline{2-3}\cline{4-5}
+who gets the extra probes & dB & wins & dB & wins\\
+\hline
+a random subset & 0.196 & --- & 0.471 & ---\\
+lowest local ceiling & 0.189 & 137/144 & 0.458 & 54/108\\
+frames the top-1 misses & 0.184 & 144/144 & 0.454 & 104/108\\
+largest actual gain & \textbf{0.140} & 144/144 & \textbf{0.372} & 108/108\\
+\hline
+\end{tabular}
+\caption{Delivered-power loss when a fixed probe budget is allocated by different rules. Every
+row upgrades the same number of frames from a low to a high probe count, so budget and form are
+identical and only the choice of frames differs; ``wins'' counts cells beating the random
+subset. The last row is the exact maximum over all such allocations. It and the row above it
+need knowledge unavailable at run time.}
+\label{tab:alloc}
+\end{table}

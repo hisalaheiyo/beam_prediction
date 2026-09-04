@@ -1,0 +1,106 @@
+{
+ "s31": {
+  "n_windows": 24,
+  "n_events": 11,
+  "n_drives": 7,
+  "plugin": 0.6174242424242424,
+  "jackknife": 0.5871212121212123,
+  "S2_unbiased": 0.4537878787878788,
+  "bracket": [
+   0.4537878787878788,
+   0.6736377949520639
+  ],
+  "jk_in_bracket": true
+ },
+ "s32": {
+  "n_windows": 58,
+  "n_events": 15,
+  "n_drives": 6,
+  "plugin": 0.6912225705329154,
+  "jackknife": 0.6598746081504707,
+  "S2_unbiased": 0.5614420062695925,
+  "bracket": [
+   0.5614420062695925,
+   0.7492943388746458
+  ],
+  "jk_in_bracket": true
+ },
+ "s33": {
+  "n_windows": 55,
+  "n_events": 14,
+  "n_drives": 8,
+  "plugin": 0.7603305785123965,
+  "jackknife": 0.7603305785123972,
+  "S2_unbiased": 0.6317355371900828,
+  "bracket": [
+   0.6317355371900828,
+   0.7948179270688871
+  ],
+  "jk_in_bracket": true
+ },
+ "s34": {
+  "n_windows": 19,
+  "n_events": 7,
+  "n_drives": 4,
+  "plugin": 0.5837320574162679,
+  "jackknife": 0.516746411483254,
+  "S2_unbiased": 0.42105263157894735,
+  "bracket": [
+   0.42105263157894735,
+   0.6488856845230502
+  ],
+  "jk_in_bracket": true
+ },
+ "v2v36": {
+  "n_windows": 63,
+  "n_events": 37,
+  "n_drives": 25,
+  "plugin": 0.7763347763347763,
+  "jackknife": 0.7633477633477639,
+  "S2_unbiased": 0.6733044733044733,
+  "bracket": [
+   0.6733044733044733,
+   0.8205513227729715
+  ],
+  "jk_in_bracket": true
+ },
+ "v2v37": {
+  "n_windows": 131,
+  "n_events": 68,
+  "n_drives": 35,
+  "plugin": 0.6918806384455239,
+  "jackknife": 0.6780013879250526,
+  "S2_unbiased": 0.553504510756419,
+  "bracket": [
+   0.553504510756419,
+   0.7439788375729642
+  ],
+  "jk_in_bracket": true
+ },
+ "v2v38": {
+  "n_windows": 187,
+  "n_events": 112,
+  "n_drives": 63,
+  "plugin": 0.721438988818668,
+  "jackknife": 0.698104035002431,
+  "S2_unbiased": 0.608458920758386,
+  "bracket": [
+   0.608458920758386,
+   0.7800377688025023
+  ],
+  "jk_in_bracket": true
+ },
+ "v2v39": {
+  "n_windows": 133,
+  "n_events": 104,
+  "n_drives": 50,
+  "plugin": 0.6855775803144225,
+  "jackknife": 0.6671223513328778,
+  "S2_unbiased": 0.5525632262474367,
+  "bracket": [
+   0.5525632262474367,
+   0.7433459667257479
+  ],
+  "jk_in_bracket": true
+ }
+}

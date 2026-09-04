@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\setlength{\tabcolsep}{2.6pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{tabular}{lrrcrrr}
+\hline
+& stop & drift & $C$ & \multicolumn{2}{c}{residual error} & floor\\
+site & events & [m] & bracket & rate & med.\,[dB] & [dB]\\
+\hline
+V2I\,31 & 11 & 0.08 & [0.45,\,0.67] & 42\% & 0.050 & 0.028\\
+V2I\,32 & 15 & 0.06 & [0.56,\,0.75] & 35\% & 0.055 & 0.030\\
+V2I\,33 & 14 & 0.01 & [0.63,\,0.79] & 26\% & 0.045 & 0.031\\
+V2I\,34 & 7 & 0.19 & [0.42,\,0.65] & 50\% & 0.050 & 0.066\\
+\hline
+\end{tabular}
+\caption{Per-deployment measurements on the stopping windows. Stop events are the independent unit; drift is the median within-window displacement against a 0.5\,m cap. The $C$ bracket runs from an unbiased collision-probability estimate to its root. Residual error and floor are leave-one-out: the fixed beam is chosen from the other $W-1$ frames of its window and scored on the held-out frame.}
+\label{tab:deployments}
+\end{table}

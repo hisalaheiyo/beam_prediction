@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\setlength{\tabcolsep}{1.8pt}
+\renewcommand{\arraystretch}{1.05}
+\footnotesize
+\begin{tabular}{llccccc}
+\hline
+\multicolumn{2}{c}{} & hold & table & MLP & TransF. & TransF.\\
+route & $h$\,[s] & 0\,p & 0\,p & 84\,k & 25.9\,M & pooled\\
+\hline
+surveyed & 0.74 & 0.615 & \textbf{0.092} & 0.163 & 0.587 & --\\
+ & 1.47 & 1.001 & \textbf{0.147} & 0.192 & 0.837 & --\\
+ & 2.94 & 1.565 & 0.563 & \textbf{0.358} & 0.947 & --\\
+\hline
+unsurveyed & 0.74 & 0.524(74) & \textbf{0.520(87)} & 0.806(89) & 1.039(107) & 1.150\\
+ & 1.47 & 0.766(100) & \textbf{0.570(108)} & 0.967(145) & 1.350(171) & 1.462\\
+ & 2.94 & 1.250(165) & \textbf{0.769(176)} & 1.109(194) & 1.493(193) & 1.562\\
+\hline
+\end{tabular}
+\caption{Delivered-power loss in dB; lowest per row in bold. Both splits hold out the
+\emph{target} frame. Surveyed is one deterministic sequence split per deployment, so no
+spread is quoted. Unsurveyed holds out map blocks over three permutations, giving 12, 11 and 8
+runs at the three horizons; permutations left with too few evaluation frames are skipped, so
+the longest-horizon row is a subset. Parentheses are standard errors of the mean over runs, in units of
+the last digit. Pooled: TransFuser retrained on nine deployments.}
+\label{tab:h2h}
+\end{table}
