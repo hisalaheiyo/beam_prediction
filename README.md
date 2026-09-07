@@ -1,4 +1,4 @@
-# Measuring the Irreducible Loss of Sensing-Aided Beam Prediction
+# Power-Loss Decomposition for Sensing-Aided Beam Prediction
 
 Code and stored results for the paper. Every number in the manuscript is re-derived by the three
 scripts in `verify/`, which read only `results/` and need neither the dataset nor a GPU.
